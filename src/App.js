@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// accessing DOM elements directly
 import './App.css';
+import {UseRef} from "./UseRef"
+import {UseRefbutton} from "./UseRefbutton"
+import {EventBubbling} from "./EventBubbling"
+import {EventBubblingPC} from "./EventBubblingPC"
+import {StopPropagation} from "./StopPropagation"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UseRef></UseRef>
+      <UseRefbutton></UseRefbutton>
+      <EventBubbling></EventBubbling>
+      <EventBubblingPC></EventBubblingPC>
+      <StopPropagation></StopPropagation>
+     
     </div>
   );
 }
