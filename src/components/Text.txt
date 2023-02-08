@@ -1,0 +1,10 @@
+lexical Scope:-
+       Where ever an Execution context is created a lexical Environment is also created.
+
+       lexical environment is the local memory along with the lexical environment of its parent
+
+lexical-----means hierarchy
+
+Closures:-
+
+
